@@ -141,7 +141,7 @@ main{
     width: 900px;
     border-radius: 30px;
 }
-.section-container > .items-container, .items-container-middle{
+.section-container > .items-container, .items-container-middle{ /*横に拡張するために必要なflexコード*/
     flex: 0 0 auto;
 }
 .items-container-middle{
